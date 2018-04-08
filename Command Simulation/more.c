@@ -33,7 +33,7 @@ int main(int argc,char *argv[])
 	{
 		fs=open(argv[argc-1],O_RDONLY);
 		if(fs<0)
-			printf(":No such file or directory2\n");
+			printf(":No such file or directory\n");
 		else if(fs==0)
 			printf("file is empty\n");
 		else
