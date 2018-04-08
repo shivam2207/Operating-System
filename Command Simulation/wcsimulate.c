@@ -140,7 +140,7 @@ int main(int argc,char *argv[])
 		return(count);
 	}
 	
-	int lol(char *b)//length of longest line
+	int lol(char *b)//length of longestline
 	{
 		int max=0;
 		count=0;
